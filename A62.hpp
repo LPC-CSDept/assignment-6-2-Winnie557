@@ -22,11 +22,12 @@ double nthpowern(int n)
         return result;
         // return n_th power number
 }
+ 
 void printout(double result)
 {
         cout << "The result is " << setw(10) << fixed << setprecision(5) << result << endl;       
 }
-
+/*
 int main(){
         int n; 
         double result;
@@ -43,4 +44,4 @@ int main(){
         }
         printout(result);
 }
-
+*/
